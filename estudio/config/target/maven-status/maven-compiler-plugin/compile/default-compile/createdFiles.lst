@@ -1,0 +1,8 @@
+com\example\service\IUserService.class
+com\example\service\impl\UserService.class
+com\example\config\AppConfig.class
+com\example\servlets\Servlet.class
+com\example\repository\impl\UserRepo.class
+com\example\model\User.class
+com\example\repository\IUserRepo.class
+com\example\context\ContextSingleton.class
