@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="beanA" class="com.example.beans.BeanA">
+        <property name="message" value="Hola Mundo beanA!!" />
+    </bean>
+
+    <bean id="UserRepository" class="com.example.repository.UserRepository" 
+    destroy-method="destroy"/>
+
+    <bean id="UserService" class="com.example.service.UserService">
+        <constructor-arg ref="UserRepository"> </constructor-arg>
+    </bean>
+</beans>

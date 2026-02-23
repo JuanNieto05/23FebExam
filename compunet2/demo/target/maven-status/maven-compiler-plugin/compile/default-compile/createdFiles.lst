@@ -1,0 +1,6 @@
+com\example\repository\UserRepository.class
+com\example\beans\BeanA.class
+com\example\Main.class
+com\example\HelloServlet.class
+com\example\service\UserService.class
+com\example\model\User.class
